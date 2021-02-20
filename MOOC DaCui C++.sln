@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MOOC DaCui C++", "MOOC DaCui C++\MOOC DaCui C++.vcxproj", "{B9A8D0FA-FB04-4111-AD9C-547CE1B7456F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1一、C++概览", "MOOC DaCui C++\MOOC DaCui C++.vcxproj", "{B9A8D0FA-FB04-4111-AD9C-547CE1B7456F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2二、C++程序基础", "二、C++程序基础\二、C++程序基础.vcxproj", "{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{4D16C389-E499-4CAE-8EE4-A84520875677}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3三、C语法的增强以及对应的C++特性", "3三、C语法的增强以及对应的C++特性\3三、C语法的增强以及对应的C++特性.vcxproj", "{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1.Aloha World", "Aloha World\Aloha World.vcxproj", "{AF1ADC0B-137E-4728-82CB-683C42496299}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swap", "swap\swap.vcxproj", "{44E2481C-3836-45D5-8C61-DF800D6C7DE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +31,45 @@ Global
 		{B9A8D0FA-FB04-4111-AD9C-547CE1B7456F}.Release|x64.Build.0 = Release|x64
 		{B9A8D0FA-FB04-4111-AD9C-547CE1B7456F}.Release|x86.ActiveCfg = Release|Win32
 		{B9A8D0FA-FB04-4111-AD9C-547CE1B7456F}.Release|x86.Build.0 = Release|Win32
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Debug|x64.ActiveCfg = Debug|x64
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Debug|x64.Build.0 = Debug|x64
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Debug|x86.Build.0 = Debug|Win32
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Release|x64.ActiveCfg = Release|x64
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Release|x64.Build.0 = Release|x64
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Release|x86.ActiveCfg = Release|Win32
+		{7216B35B-2B45-4B02-8ECB-BA8026BA5A7F}.Release|x86.Build.0 = Release|Win32
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Debug|x64.ActiveCfg = Debug|x64
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Debug|x64.Build.0 = Debug|x64
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Debug|x86.Build.0 = Debug|Win32
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Release|x64.ActiveCfg = Release|x64
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Release|x64.Build.0 = Release|x64
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Release|x86.ActiveCfg = Release|Win32
+		{8B893FEA-F156-4FDC-9AA5-FA6753A2AE10}.Release|x86.Build.0 = Release|Win32
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Debug|x64.ActiveCfg = Debug|x64
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Debug|x64.Build.0 = Debug|x64
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Debug|x86.Build.0 = Debug|Win32
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Release|x64.ActiveCfg = Release|x64
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Release|x64.Build.0 = Release|x64
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Release|x86.ActiveCfg = Release|Win32
+		{AF1ADC0B-137E-4728-82CB-683C42496299}.Release|x86.Build.0 = Release|Win32
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Debug|x64.ActiveCfg = Debug|x64
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Debug|x64.Build.0 = Debug|x64
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Debug|x86.ActiveCfg = Debug|Win32
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Debug|x86.Build.0 = Debug|Win32
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Release|x64.ActiveCfg = Release|x64
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Release|x64.Build.0 = Release|x64
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Release|x86.ActiveCfg = Release|Win32
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF1ADC0B-137E-4728-82CB-683C42496299} = {4D16C389-E499-4CAE-8EE4-A84520875677}
+		{44E2481C-3836-45D5-8C61-DF800D6C7DE1} = {4D16C389-E499-4CAE-8EE4-A84520875677}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A63AB2C5-797A-4902-96D3-7C88708B67D7}
