@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="一、C++概览">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.C++编程范式.cpp">
+      <Filter>一、C++概览</Filter>
+    </ClCompile>
+    <ClCompile Include="2.如何学习C++.cpp">
+      <Filter>一、C++概览</Filter>
+    </ClCompile>
+    <ClCompile Include="3.Visual Studio集成开发环境.cpp">
+      <Filter>一、C++概览</Filter>
+    </ClCompile>
+    <ClCompile Include="4.Eclipse CDT集成开发环境.cpp">
+      <Filter>一、C++概览</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
