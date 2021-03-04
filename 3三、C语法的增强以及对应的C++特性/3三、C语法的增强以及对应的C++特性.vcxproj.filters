@@ -13,5 +13,11 @@
     <ClCompile Include="1.引用、[C++11]空指针与动态内存分配.cpp">
       <Filter>三、C语法的增强以及对应的C++特性</Filter>
     </ClCompile>
+    <ClCompile Include="2.数据类型与转换、[C++11]列表初始化.cpp">
+      <Filter>三、C语法的增强以及对应的C++特性</Filter>
+    </ClCompile>
+    <ClCompile Include="3.[C++]自动类型推荐：类型系统、auto与decltype.cpp">
+      <Filter>三、C语法的增强以及对应的C++特性</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
