@@ -8,7 +8,7 @@
     1)int x;
       int& rx=x;
 
-    2)int x, &rx=x;
+    2)int x, & rx=x;
 
     {
     Coding Conventions:
@@ -16,7 +16,7 @@
     }
 */
 
-//3.引用的性质
+    //3.引用的性质
 /*
     1)通过引用所做的读写操作实际上是作用于原变量上
     2)引用必须在声明的时候初始化
@@ -28,13 +28,13 @@
 //#include<iostream>
 //using namespace std;
 //
-//void swap_by_Value(int x, int y) {
+//void swap_by_value(int x, int y) {
 //    int temp = x; x = y; y = temp;
 //}
-//void swap_by_Pointer(int* p1, int* p2) {
+//void swap_by_pointer(int* p1, int* p2) {
 //    int temp = *p1; *p1 = *p2; *p2 = temp;
 //}
-//void swap_by_Reference(int& rx, int& ry) {
+//void swap_by_reference(int& rx, int& ry) {
 //    int temp = rx; rx = ry; ry = temp;
 //}
 //
@@ -42,15 +42,15 @@
 //    int a = 10, b = 5;
 //    cout << "before:a=" << a << "   b=" << b << endl;
 //
-//    swap_by_Value(a, b);
+//    swap_by_value(a, b);
 //    cout << "swap by value:a=" << a << "   b=" << b << endl;
 //
 //    a = 10; b = 5;
-//    swap_by_Pointer(&a, &b);
+//    swap_by_pointer(&a, &b);
 //    cout << "swap by pointer:a=" << a << "   b=" << b << endl;
 //
 //    a = 10; b = 5;
-//    swap_by_Reference(a, b);
+//    swap_by_reference(a, b);
 //    cout << "swap by reference:a=" << a << "   b=" << b << endl;
 //    return 0;
 //}
@@ -99,6 +99,14 @@
     2)动态内存使用完毕后，使用delete运算符来释放
         //delete 指针名;
         //delete[] 指针名;
+        //指针名 = nullptr;//删掉的是空间，但是指针并没有删除，而是重新随机指向了一个空间
+
+    {内存四区：
+        栈
+        堆：手动申请的内存
+        静态区：存储静态变量和全局变量
+        代码区
+    }
 
     3)例子：
 */
@@ -126,4 +134,3 @@
 //
 //    return 0;
 //}
-

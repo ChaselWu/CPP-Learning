@@ -143,6 +143,11 @@
     <ClCompile Include="1.引用、[C++11]空指针与动态内存分配.cpp" />
     <ClCompile Include="2.数据类型与转换、[C++11]列表初始化.cpp" />
     <ClCompile Include="3.[C++]自动类型推荐：类型系统、auto与decltype.cpp" />
+    <ClCompile Include="4.简化的C++内存模型.cpp" />
+    <ClCompile Include="5.常量与指针.cpp" />
+    <ClCompile Include="6.特殊函数：重载、默认参数值与内联.cpp" />
+    <ClCompile Include="7.基于范围的for循环.cpp" />
+    <ClCompile Include="8.带有初始化器的if和switch语句.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

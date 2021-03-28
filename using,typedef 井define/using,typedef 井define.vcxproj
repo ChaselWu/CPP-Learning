@@ -18,20 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="0.单元导学.cpp" />
-    <ClCompile Include="1.C++源代码和编码规范.cpp" />
-    <ClCompile Include="2.Aloha World.cpp" />
-    <ClCompile Include="3.名字空间.cpp" />
-    <ClCompile Include="4.编译C++程序.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7216b35b-2b45-4b02-8ecb-ba8026ba5a7f}</ProjectGuid>
-    <RootNamespace>二C程序基础</RootNamespace>
+    <ProjectGuid>{68d26269-8d31-4b89-8ca4-4e40d175e98f}</ProjectGuid>
+    <RootNamespace>usingtypedef井define</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>2二、C++程序基础</ProjectName>
+    <ProjectName>3.5.using,typedef 井define</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,6 +139,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

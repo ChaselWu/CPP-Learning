@@ -19,6 +19,10 @@ int main() {
     delete p;
     delete[]q;
 
+    int a{12};
+    double b=static_cast<double>(a);
+    int c{static_cast<int>(b)};
+    cout << a << b<<  c;
 
     return 0;
 }

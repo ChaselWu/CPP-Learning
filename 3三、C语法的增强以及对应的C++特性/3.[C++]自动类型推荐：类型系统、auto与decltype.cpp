@@ -37,9 +37,36 @@
 /*
     6.1)auto变量在定义时必须初始化，这类似于const
     6.2)定义在一个auto序列的变量必须始终推导成同一类型
-    6.3)如果初始化表达式是引用或const，则去除引用或const语义。
-    6.4)如果auto表达式带上&符号，则不去除引用或const语义
-    6.5)出示表达式为数组时，auto关键字推导类型为指针。
+    6.3)如果初始化表达式是引用或const，则去除引用或const语义。（auto定义的是新的变量）
+    6.4)如果auto表达式带上&符号，则不去除引用或const语义（auto&定义的是引用，是别名）
+    6.5)初始表达式为数组时，auto关键字推导类型为指针。
     6.6)若表达式为数组且auto带上&，则推导类型为数组类型
     6.7)C++14中，auto可以作为函数的返回值类型和参数类型
+*/
+
+//7.尽量使用auto
+/*
+    原因之一：保证声明变量时就初始化了
+
+    将int x=3;变为auto形式：
+    auto x = int{3};//列表初始化
+    auto x = int{3.0);//error：窄化
+    auto x = int(3);//C风格的强制类型转换
+*/
+
+//8.自动类型推导：关键字decltype
+/*
+////#include<iostream>
+////using namespace std;
+////int  fun1()  { return 10;  }
+////auto fun2()  { return 'g'; }  // C++14
+////int main(){
+////    // Data type of x is same as return type of fun1()
+////    // and type of y is same as return type of fun2()
+////    decltype(fun1()) x;  // 不会执行fun1()函数
+////    decltype(fun2()) y = fun2();
+////    cout << typeid(x).name() << endl;
+////    cout << typeid(y).name() << endl;
+////    return 0;
+////}
 */

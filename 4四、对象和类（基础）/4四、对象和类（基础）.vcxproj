@@ -18,20 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="0.单元导学.cpp" />
-    <ClCompile Include="1.C++源代码和编码规范.cpp" />
-    <ClCompile Include="2.Aloha World.cpp" />
-    <ClCompile Include="3.名字空间.cpp" />
-    <ClCompile Include="4.编译C++程序.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7216b35b-2b45-4b02-8ecb-ba8026ba5a7f}</ProjectGuid>
-    <RootNamespace>二C程序基础</RootNamespace>
+    <ProjectGuid>{d12b3435-f015-47c0-9ff4-fdcbdea31277}</ProjectGuid>
+    <RootNamespace>My4四对象和类基础</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>2二、C++程序基础</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,6 +138,18 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1.用类创建对象.cpp" />
+    <ClCompile Include="2.对象拷贝以及分离声明与实现.cpp" />
+    <ClCompile Include="3.对象指针、对象数组以及函数参数.cpp" />
+    <ClCompile Include="4.抽象、封装与this指针.cpp" />
+    <ClCompile Include="5.类数据成员的初始化.cpp" />
+    <ClCompile Include="6.string类和std array类.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="head.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

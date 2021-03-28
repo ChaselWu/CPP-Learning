@@ -16,5 +16,11 @@
     <ClCompile Include="2.Aloha World.cpp">
       <Filter>二、C++程序基础</Filter>
     </ClCompile>
+    <ClCompile Include="3.名字空间.cpp">
+      <Filter>二、C++程序基础</Filter>
+    </ClCompile>
+    <ClCompile Include="4.编译C++程序.cpp">
+      <Filter>二、C++程序基础</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

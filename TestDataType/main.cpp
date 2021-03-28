@@ -17,5 +17,9 @@ int main() {
     cout << d;
     long int x(1.1);
     cout << x;*/
+
+    decltype(x) y = 43;
+
+
     return 0;
 }

@@ -19,5 +19,20 @@
     <ClCompile Include="3.[C++]自动类型推荐：类型系统、auto与decltype.cpp">
       <Filter>三、C语法的增强以及对应的C++特性</Filter>
     </ClCompile>
+    <ClCompile Include="4.简化的C++内存模型.cpp">
+      <Filter>三、C语法的增强以及对应的C++特性</Filter>
+    </ClCompile>
+    <ClCompile Include="5.常量与指针.cpp">
+      <Filter>三、C语法的增强以及对应的C++特性</Filter>
+    </ClCompile>
+    <ClCompile Include="6.特殊函数：重载、默认参数值与内联.cpp">
+      <Filter>三、C语法的增强以及对应的C++特性</Filter>
+    </ClCompile>
+    <ClCompile Include="7.基于范围的for循环.cpp">
+      <Filter>三、C语法的增强以及对应的C++特性</Filter>
+    </ClCompile>
+    <ClCompile Include="8.带有初始化器的if和switch语句.cpp">
+      <Filter>三、C语法的增强以及对应的C++特性</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
