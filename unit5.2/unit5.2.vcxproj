@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f374fa15-8e83-4614-bc6c-73a7ace07606}</ProjectGuid>
-    <RootNamespace>My5五对象和类高级</RootNamespace>
+    <ProjectGuid>{7c42de11-2bd0-4394-bab7-895b5e7a464a}</ProjectGuid>
+    <RootNamespace>unit52</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -116,7 +116,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,17 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.断言与常量表达式.cpp" />
-    <ClCompile Include="2.代理构造、不可变对象与静态成员.cpp" />
-    <ClCompile Include="3.析构、友元与深浅拷贝.cpp" />
-    <ClCompile Include="4.vector类和字符串字面量.cpp" />
-    <ClCompile Include="5.栈.cpp" />
-    <ClCompile Include="6.结构化绑定.cpp" />
-    <ClCompile Include="StackOfIntegers.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Human.h" />
-    <ClInclude Include="StackOfIntegers.h" />
+    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

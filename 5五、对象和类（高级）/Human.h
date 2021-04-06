@@ -1,8 +1,9 @@
 #pragma once
-#include"head.h"
+#include <iostream>
+using std::string;
+using uint = unsigned int;
 enum { MALE, FEMALE };
 class Human {
-
  private:
   // variable
   static uint count;
@@ -19,34 +20,20 @@ class Human {
   string getName();
   bool getSex();
   double getHeight();
-  //set
+  // set
   void setHeight(double newH);
 };
 
-
-
-
-
-
-
-
-
-inline Human::Human(string name, bool sex, double h, double w) {
+Human::Human(string name, bool sex, double h, double w) {
   this->name = name;
   this->sex = sex;
   height = h;
   weight = w;
 }
-inline string Human::getName() {
-  return name;
-}
-inline bool Human::getSex() {
-  return sex;
-}
-inline double Human::getHeight() {
-  return height;
-}
-inline void Human::setHeight(double newH) {
+string Human::getName() { return name; }
+bool Human::getSex() { return sex; }
+double Human::getHeight() { return height; }
+void Human::setHeight(double newH) {
   height = newH;
   return;
 }

@@ -26,8 +26,8 @@
         string message1{charArray};
     4£©×·¼Ó×Ö·û´®append
 */
-//#include <iostream>
-//#include<string>
+#include <iostream>
+#include<string>
 //using std::string;
 //using std::endl;
 //int main() {
@@ -45,9 +45,22 @@
     6£©at(index);
        clear();
        erase(index,n);
-       empty();
+       empty();//¼ì²âÊÇ·ñÎª¿Õ
+*/
+#include<iostream>
+#include<string>
+
+//int main() {
+//  std::string s1{"I'm you "};
+//  s1.erase(2, 3);
+//  std::cout << s1<<std::endl<<s1.empty()<<std::endl;
+//  s1.clear();
+//  std::cout << s1 << s1.empty();
+//  return 0;
+//}
+  /*
     7£©campare(str)
-        ×ÖµäÐòÏà¼õ
+        ×ÖµäÐòÏà¼õ,Ç°¼õºó
     8£©substr(index,n)
        substr(index)//Ä¬ÈÏµ½end
     9£©find

@@ -55,7 +55,13 @@
 //    return 0;
 //}
 
-
+/*
+    {传参类型的区别：
+        int x         //不改变实参，存在一次拷贝开销
+        int& x        //可改变参数
+        const int& x  //不改变参数，不存在拷贝开销
+    }
+*/
 //5.示例代码
 //#include<iostream>
 //using namespace std;

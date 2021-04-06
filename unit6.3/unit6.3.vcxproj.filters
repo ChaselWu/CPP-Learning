@@ -15,34 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1.断言与常量表达式.cpp">
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="2.代理构造、不可变对象与静态成员.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="3.析构、友元与深浅拷贝.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="4.vector类和字符串字面量.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="5.栈.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="StackOfIntegers.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="6.结构化绑定.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Human.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="StackOfIntegers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

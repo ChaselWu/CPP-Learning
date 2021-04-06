@@ -11,21 +11,22 @@ using std::endl;
 class Person {
  private:
   static unsigned int Num;
-  string name{"UNKNOWN"};
+  string* name=new string{"UNKNOWN"};
  public:
   Person(){
     Num++;
     cout << "please input the name:" << endl;
-    cin >> name;
+    cin >> *name;
   };
   Person(const Person& man) {
     Num++;
-    int SizeofName = sizeof(man.name);
-    //name = new char(SizeofName+1);
-    for (int i = 0; i < SizeofName; i++) {
-      name[i] = man.name[i];
-    }
-    name[SizeofName] = '\0';
+    //int SizeofName = sizeof(man.name);
+    ////name = new char(SizeofName+1);
+    //for (int i = 0; i < SizeofName; i++) {
+    //  name[i] = man.name[i];
+    //}
+    //name[SizeofName] = '\0';
+    *name = *(man.name);
   }
 
 
@@ -36,6 +37,7 @@ class Person {
 
   ~Person() {
     delete []name;
+    name = nullptr;
   }
 
 
@@ -49,7 +51,7 @@ class Person {
 
 void printNum(const Person& p);
 
-int unsigned Person::Num = 0;
+unsigned int Person::Num = 0;
 
 
 
