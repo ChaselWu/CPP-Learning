@@ -64,8 +64,9 @@
     1)邪恶的用法：（但可以以此明白如何实现的返回对象）
 */
 //#include"Human.h"
-//Human* getPoH(/*不写参数了*/) {//返回的内容事实上是生成的对象的指针
-//  Human* p = new Human{};//如果不new，那么return的指针指向的那个对象会在函数执行完后删去，对象丢失
+//Human* getPoH(o,/*不写参数了*/) {//返回的内容事实上是生成的对象的指针
+//  Human* p = new Human{};//如果不new，那么return的指针指向的那个对象会在函数执行完后删去，
+//                          对象丢失
 //  return p;
 //}
 //int main() {
@@ -134,7 +135,7 @@
 //};
 //int main() {
 //  Human nobody{};
-//  Human alice = getH1(nobody);
+//  Human alice = getH2(nobody);
 //  return 0;
 //}
 
